@@ -258,13 +258,14 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   color: var(--title-text-color);
 }
 
 /* Footer */
 
 .footer {
+  padding: 100px 0;
   background-color: var(--title-text-color);
 }
 
@@ -279,7 +280,6 @@ img {
 
 .foot {
   width: 264px;
-  padding: 100px 0;
 }
 
 .foot-link {
@@ -325,7 +325,7 @@ img {
 
 .works-list {
   display: flex;
-  gap: 24px;
+  gap: 48px 24px;
   flex-wrap: wrap;
 }
 
